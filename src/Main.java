@@ -12,10 +12,11 @@ public class Main {
     public static void main(String[] args) {
         Docente docente1 = new Docente("Prof. Smith");
         Docente docente2 = new Docente("Prof. Pollock");
+        Docente docente3 = new Docente("Prof. Rossi");
 
         Esame esame1 = new Esame("Matematica", docente1, "23/04/2024", 27);
         Esame esame2 = new Esame("Fisica", docente2, "28/04/2024", 23);
-        Esame esame3 = new Esame("Analisi", docente1, "12/05/2024", 28);
+        Esame esame3 = new Esame("Analisi", docente3, "12/05/2024", 28);
 
         Facoltà facoltà = new Facoltà("Matematica");
         facoltà.aggiungiEsame("Informatica");
